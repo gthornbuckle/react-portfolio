@@ -27,7 +27,7 @@ function Home(props) {
                     <hr className="my-4"/>
                     <p>Please browse the projects on this site to see some examples of my work.</p>
                     <p className="lead">
-                        <a className="badge badge-info" href="#">Click here to view my CV</a>
+                        <a className="linkCV" href="https://drive.google.com/file/d/1lHYNuzh7PNRpV5yfHyxFFwdEsjZoZQax/view?usp=sharing">Click here to view my CV</a>
                     </p>
                 </div>
             </div>

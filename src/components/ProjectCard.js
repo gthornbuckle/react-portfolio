@@ -21,20 +21,20 @@ const getProjectImg = project =>{ //Gets the correct image for each project card
 
 function ProjectCard(props) {
     return (
-        <motion.div className="cardContainer col-sm-12 col-md-6 col-lg-6 d-flex align-items-stretch" whileHover={{ scale: 1.05 }}>
+        <div className="cardContainer col-sm-12 col-md-6 col-lg-6 align-items-stretch" whileHover={{ scale: 1.05 }}>
             <div className="card">
                 <img src={getProjectImg(props.img)} alt={props.name} className="card-img-top"/>
                 <div className="card-body">
                     <h2 className="card-title">{props.name}</h2>
                     <div className="buttonTab">
-                        <motion.a href={props.link} className="btn" whileTap={{ scale: 0.9 }}>View Project</motion.a>
-                        <motion.a href={props.repo} className="btn" whileTap={{ scale: 0.9 }}>View Github Repo</motion.a>
+                        <motion.a href={props.link} className="btn" whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.9 }}>View Project</motion.a>
+                        <motion.a href={props.repo} className="btn" whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.9 }}>View Github Repo</motion.a>
                     </div>
                     <hr className="my-2"/>
                     <p>{props.desc}</p>
                 </div>
             </div>
-        </motion.div>
+        </div>
     );
   }
   

@@ -74,8 +74,18 @@ h1{
     color: white;
 }
 
+.linkCV{
+    color: white;
+}
+
+.linkCV:hover{
+    color: var(--background);
+}
+
 .cardContainer{
     padding: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 .card{
@@ -83,6 +93,7 @@ h1{
     background-color: var(--card);
     color: var(--textLight);
     box-shadow: 0 0 10px rgba(0,0,0,0.7);
+    width:100%;
 }
 
 .card-body{
@@ -122,8 +133,23 @@ h1{
     color: white;
 }
 
+.contactIcons{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contactIcons img{
+    width: 200px;
+    height: 200px;
+}
+
 @media (max-width: 500px) {
     .avatarImg{
         display: none;
+    }
+
+    .contactIcons img{
+        width: 100px;
+        height: 100px;
     }
   }

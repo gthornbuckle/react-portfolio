@@ -4,7 +4,7 @@ import projects from "../../assets/projects.json";
 
 
 
-function Projects(props) {
+function Projects() {
   return (
     <div className="container-fluid backgroundImg">
         <h1>Projects</h1>
