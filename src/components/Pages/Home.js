@@ -4,12 +4,10 @@ import profileImg from '../../assets/photoplaceholder.jpg';
 function Home(props) {
   return (
     <div className="container-fluid backgroundImg">
-        <div className="row justify-content-center">
-            <div className="col-xs-4 col-lg-3">
-                <img className="img-fluid avatarImg" src={profileImg}/>
-            </div>
+        <div className="avatarImg">
+            <img className="img-fluid avatar" src={profileImg}/>
         </div>
-        <div className="row justify-content-center align-items-center">
+        <div className="row align-items-center">
             <div className="col-xs-12 col-lg-12">
                 <div className="jumbotron">
                     <h1 className="display-3">Portfolio</h1>

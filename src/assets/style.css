@@ -44,8 +44,16 @@ nav{
 }
 
 .avatarImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar{
     padding:20px;
     border-radius: 50%;
+    width: 300px;
+    height: 300px;
 }
 
 .jumbotron{
@@ -60,3 +68,9 @@ nav{
 .jumbotron h1{
     color: white;
 }
+
+@media (max-width: 500px) {
+    .avatarImg{
+        display: none;
+    }
+  }
