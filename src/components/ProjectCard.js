@@ -1,24 +1,40 @@
 import React from "react";
 import { motion } from "framer-motion";
-import findmyband from "../assets/project-images/find-my-band.png";
-import readmegenerator from "../assets/project-images/readme-generator.png";
-import weatherdashboard from "../assets/project-images/weather-dashboard.png";
-import codequiz from "../assets/project-images/code-quiz.png";
-import workdayscheduler from "../assets/project-images/work-day-scheduler.png";
-import passwordgenerator from "../assets/project-images/password-generator.png";
+import findmyband from "../assets/project-images/findmyband.png";
+import readmegenerator from "../assets/project-images/readmegenerator.PNG";
+import weatherdashboard from "../assets/project-images/weatherdashboard.png";
+import codequiz from "../assets/project-images/codequiz.png";
+import workdayscheduler from "../assets/project-images/workdayscheduler.png";
+import passwordgenerator from "../assets/project-images/passwordgenerator.PNG";
+
+const getProjectImg = project =>{ //Gets the correct image for each project card
+    switch(project){
+        case 'findmyband': return findmyband;
+        case 'readmegenerator': return readmegenerator;
+        case 'weatherdashboard': return weatherdashboard;
+        case 'codequiz': return codequiz;
+        case 'workdayscheduler': return workdayscheduler;
+        case 'passwordgenerator': return passwordgenerator;
+        default: return;
+    }
+}
 
 function ProjectCard(props) {
     return (
-        <div className="cardContainer col-sm-12 col-md-6 col-lg-4">
+        <motion.div className="cardContainer col-sm-12 col-md-6 col-lg-6 d-flex align-items-stretch" whileHover={{ scale: 1.05 }}>
             <div className="card">
-                <img src={props.img} alt={props.name} className="card-img-top"/>
+                <img src={getProjectImg(props.img)} alt={props.name} className="card-img-top"/>
                 <div className="card-body">
                     <h2 className="card-title">{props.name}</h2>
-                    <a href={props.link} className="btn btn-primary">View Project</a>
-                    <p>Flip for more info</p>
+                    <div className="buttonTab">
+                        <motion.a href={props.link} className="btn" whileTap={{ scale: 0.9 }}>View Project</motion.a>
+                        <motion.a href={props.repo} className="btn" whileTap={{ scale: 0.9 }}>View Github Repo</motion.a>
+                    </div>
+                    <hr className="my-2"/>
+                    <p>{props.desc}</p>
                 </div>
             </div>
-        </div>
+        </motion.div>
     );
   }
   

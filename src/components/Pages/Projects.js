@@ -9,13 +9,14 @@ function Projects(props) {
     <div className="container-fluid backgroundImg">
         <h1>Projects</h1>
         <div className="row">
-            <ProjectCard id={project.id}
+            {projects.map(project =><ProjectCard 
+            id={project.id}
             key={`${project.name}-${project.id}`}
             name={project.name}
             img={project.preview}
             link={project.deployedLink}
             repo={project.githubRepo}
-            desc={project.description}/>
+            desc={project.description}/>)}
         </div>
     </div>
   );

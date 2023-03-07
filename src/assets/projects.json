@@ -2,7 +2,7 @@
     {
       "id": 1,
       "name": "Find My Band",
-      "preview": "find-my-band",
+      "preview": "findmyband",
       "deployedLink": "https://jayclay922.github.io/Find-My-Band/index.html",
       "githubRepo": "https://github.com/JayClay922/Find-My-Band",
       "description" : "This application, created as a group project, allows a user to find live shows for their favourite artists and bands nearby."
@@ -10,7 +10,7 @@
     {
         "id": 2,
         "name": "README Generator",
-        "preview": "readme-generator",
+        "preview": "readmegenerator",
         "deployedLink": "N/A",
         "githubRepo": "https://github.com/gthornbuckle/README-Generator",
         "description" : "This node application takes user input from the console and generates a README file. Follow the deployed link for an of a generated file."
@@ -18,7 +18,7 @@
     {
         "id": 3,
         "name": "Weather Dashboard",
-        "preview": "weather-dashboard",
+        "preview": "weatherdashboard",
         "deployedLink": "https://gthornbuckle.github.io/Weather-Dashboard/",
         "githubRepo": "https://github.com/gthornbuckle/Weather-Dashboard",
         "description" : "This application uses a weather API to return the weather for a user inputted city. There is also saving functionality."
@@ -26,7 +26,7 @@
     {
         "id": 4,
         "name": "Code Quiz",
-        "preview": "code-quiz",
+        "preview": "codequiz",
         "deployedLink": "https://gthornbuckle.github.io/Code-Quiz/",
         "githubRepo": "https://github.com/gthornbuckle/Code-Quiz",
         "description" : "A simple quiz application which features a timer and scoring system as well as the ability to save highscores."
@@ -34,7 +34,7 @@
     {
         "id": 5,
         "name": "Work Day Scheduler",
-        "preview": "work-day-scheduler",
+        "preview": "workdayscheduler",
         "deployedLink": "https://gthornbuckle.github.io/Work-Day-Scheduler/",
         "githubRepo": "https://github.com/gthornbuckle/Work-Day-Scheduler",
         "description" : "A simple work day planner app which allows a user to input and save tasks they intend to do in 1-hour time slots."
@@ -42,10 +42,10 @@
     {
         "id": 6,
         "name": "Password Generator",
-        "preview": "password-generator",
+        "preview": "passwordgenerator",
         "deployedLink": "https://gthornbuckle.github.io/Password-Generator/",
         "githubRepo": "https://github.com/gthornbuckle/Password-Generator",
-        "description" : "A password generator with customizable parameters."
+        "description" : "A password generator with customizable parameters, including specifying password length and character types."
     }
 ]
   
