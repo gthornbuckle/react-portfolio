@@ -25,11 +25,11 @@
     },
     {
         "id": 4,
-        "name": "Weather Dashboard",
-        "preview": "weather-dashboard",
-        "deployedLink": "https://gthornbuckle.github.io/Weather-Dashboard/",
-        "githubRepo": "https://github.com/gthornbuckle/Weather-Dashboard",
-        "description" : "This application uses a weather API to return the weather for a user inputted city. There is also saving functionality."
+        "name": "Code Quiz",
+        "preview": "code-quiz",
+        "deployedLink": "https://gthornbuckle.github.io/Code-Quiz/",
+        "githubRepo": "https://github.com/gthornbuckle/Code-Quiz",
+        "description" : "A simple quiz application which features a timer and scoring system as well as the ability to save highscores."
     },
     {
         "id": 5,
