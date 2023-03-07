@@ -4,7 +4,6 @@ import Navbar from './components/Navbar';
 import Home from './components/Pages/Home';
 import Contact from './components/Pages/Contact';
 import Projects from './components/Pages/Projects';
-import './assets/style.css';
 
 function App() {
   return (
@@ -12,12 +11,9 @@ function App() {
       <div>
         <Navbar />
         <Routes>
-          {/* Define routes using the Route component to render different page components at different paths */}
-          {/* Define a default route that will render the Home component */}
           <Route path="/" element={<Home />} />
-          <Route path="blog" element={<Projects />} />
-          {/* Define a route that will have descendant routes */}
-          <Route path="contact/*" element={<Contact />} />
+          <Route path="projects" element={<Projects />} />
+          <Route path="contact" element={<Contact />} />
         </Routes>
       </div>
     </Router>
