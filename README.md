@@ -48,14 +48,14 @@ N/A
 
 ## Page Preview
 
-![page preview](./src/assets/pagepreview.png)
+![page preview](./src/assets/pagepreview.PNG)
 
-[Deployed Page](https://github.com/gthornbuckle/)
+[Deployed Page](https://gthornbuckle.github.io/react-portfolio/)
 
 ## Questions
 
 For any questions relating to this project please contact using the following links:
 
-GitHub: [gthornbuckle](https://gthornbuckle.github.io/react-portfolio/)
+GitHub: [gthornbuckle](https://github.com/gthornbuckle/)
 
 Email: gthornbuckle@gmail.com
