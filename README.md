@@ -50,10 +50,12 @@ N/A
 
 ![page preview](./src/assets/pagepreview.png)
 
+[Deployed Page](https://github.com/gthornbuckle/)
+
 ## Questions
 
 For any questions relating to this project please contact using the following links:
 
-GitHub: [gthornbuckle](https://github.com/gthornbuckle/)
+GitHub: [gthornbuckle](https://gthornbuckle.github.io/react-portfolio/)
 
 Email: gthornbuckle@gmail.com
