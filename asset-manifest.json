@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.04164cc8.css",
-    "main.js": "/react-portfolio/static/js/main.b43941f0.js",
+    "main.js": "/react-portfolio/static/js/main.0c8c1db5.js",
     "static/media/backgroundimg.jpg": "/react-portfolio/static/media/backgroundimg.beb4951a478a094a3385.jpg",
     "static/media/findmyband.png": "/react-portfolio/static/media/findmyband.54bb005e4de90d591061.png",
     "static/media/workdayscheduler.png": "/react-portfolio/static/media/workdayscheduler.82d2796fbdd75fa1fd9c.png",
@@ -14,10 +14,10 @@
     "static/media/github.svg": "/react-portfolio/static/media/github.516f08dccb6e9662a88d7101a27d200d.svg",
     "static/media/linkedin.svg": "/react-portfolio/static/media/linkedin.c65e83cd1734825ed8e1d6d583be915c.svg",
     "main.04164cc8.css.map": "/react-portfolio/static/css/main.04164cc8.css.map",
-    "main.b43941f0.js.map": "/react-portfolio/static/js/main.b43941f0.js.map"
+    "main.0c8c1db5.js.map": "/react-portfolio/static/js/main.0c8c1db5.js.map"
   },
   "entrypoints": [
     "static/css/main.04164cc8.css",
-    "static/js/main.b43941f0.js"
+    "static/js/main.0c8c1db5.js"
   ]
 }
