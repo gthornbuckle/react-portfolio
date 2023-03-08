@@ -11,7 +11,7 @@
         "id": 2,
         "name": "README Generator",
         "preview": "readmegenerator",
-        "deployedLink": "N/A",
+        "deployedLink": "https://drive.google.com/file/d/1lDgKbJFVf9Ip9Hvwlx5h7BD2qreiWMPC/view?usp=sharing",
         "githubRepo": "https://github.com/gthornbuckle/README-Generator",
         "description" : "This node application takes user input from the console and generates a README file. Follow the deployed link for an of a generated file."
     },

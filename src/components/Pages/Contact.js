@@ -13,11 +13,11 @@ function Contact() {
                     <p className="lead">You can contact me at the following places:</p>
                     <div className="contactIcons">
                         <motion.a href="https://github.com/gthornbuckle" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}><img src={githubIcon}></img></motion.a>
-                        <motion.a href="www.linkedin.com/in/gthornbuckle" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}><img src={linkedinIcon}></img></motion.a>
+                        <motion.a href="https://linkedin.com/in/gthornbuckle" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}><img src={linkedinIcon}></img></motion.a>
                     </div>
                     <hr className="my-4"/>
                     <p>Or alternatively send me an email.</p>
-                    <a className="linkCV" href="gthornbuckle@gmail.com">gthornbuckle@gmail.com</a>
+                    <a className="linkCV" href="https://mail.google.com/">gthornbuckle@gmail.com</a>
                 </div>
             </div>
         </div>

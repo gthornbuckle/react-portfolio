@@ -27,7 +27,7 @@ function ProjectCard(props) {
                 <div className="card-body">
                     <h2 className="card-title">{props.name}</h2>
                     <div className="buttonTab">
-                        <motion.a href={props.link} className="btn" whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.9 }}>View Project</motion.a>
+                        <motion.a href={props.link} className="btn" whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.9 }} disabled>View Project</motion.a>
                         <motion.a href={props.repo} className="btn" whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.9 }}>View Github Repo</motion.a>
                     </div>
                     <hr className="my-2"/>
